@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#container {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 200px;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+header.nav{
+	font-family: Open sans;
+	background-color: #2A4053;
+}
+
+.logo-container,
+.nav-items,
+.nav-items li {
+	font-family: Open sans;
+	display: inline-block;
+	color: white;
+}
+
+.nav-items {
+	float: right;
+	margin-top: 30px;
+	margin-right: 300px;
+}
+
+ul.nav-items {
+	text-decoration: none;
+}
+
+/* NAVIGATION*/
+
+p.logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	margin-left: 30px;
+}
+
+.nav-items li a {
+	float: right;
+	color: yellow;
+	text-decoration: none;
+	margin-right: 50px;
+}
+
+.nav-items a:hover {
+	color: white;
+}
+
+/* Grid layout/ columns*/
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.col {
+	float: left;
+}
+
+
+.col_63 {
+	width: 63%;
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+span.firstcharacter {
+	float: left;
+	font-family: Open sans;
+	font-size: 50px;
+	line-height: 40px;
+	color: gray;
+	padding-right: 8px;
+}
+
+header.firstarticle {
+    font-family: Open sans;
+    font-size: 24px;
+    font-weight: bold;
+    color: #033048;
+}
+
+header.secondarticle {
+	font-family: Open sans;
+	font-size: 24px;
+	font-weight: bold;
+	color: #033048;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+div.readmore a {
+	float: right;
+	margin-bottom: 5px;
+	font-family: Open sans;
+	font-weight: bold;
+	font-size: 13px;
+	color: #033048;
+	text-decoration: none;
+}
+
+div.readmore a:hover {
+	font-style: italic;
+}
+hr {
+    width: 100%;
+}
+.col_35 {
+	font-family: Open sans;
+    width: 35%;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: #f5f5f5;
+}
+
+.col_35 header {
+	font-family: Open sans;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #033048;
+	padding-top: 20px;
+}
+
+footer.learnmore a {
+	font-family: Open sans;
+	color: #033048;
+	text-decoration: none;
+}
+
+footer.learnmore a:hover {
+	color: #033048;
+	font-style: italic;
+}
+header.ad_unit {
+    font-family: Open sans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #033048;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+    background-color: white;
+    box-sizing: border-box;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* bottom */
+
+footer.yellowbanner {
+	margin-top: -200px;
+	height: 50px;
+	padding-top: 25px;
+	background-color: #f9e42e;
+}
+
+a#signup.button {
+    text-align: center;
+    box-sizing: content-box;
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    font-family: Open sans;
+    font-size: 10px bold;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #033048;
+    color: white;
+    text-decoration: none;
+}
+
+#signup.button:hover {
+	background-color: white;
+	color: #033048;
+	box-shadow: inset 0 0 0 2px #033048;
+}
+
+#footer {
+	font-family: Open sans;
+	font-size: 20px;
+	font-weight: bold;
+	color: #f9e42e;
+	background-color: #121212;
+	position: relative;
+	width: 100%;
+	height: 150px;
+	padding-top: 20px;
+	margin-top: -150px;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+}
+
+img.socials {
+    margin-top: 25px;
+    max-width: 30px;
+    max-height: 25px;
+    width: auto;
+    height: auto;
+}
+div.copyright {
+    color: white;
+    font-family: Open sans;
+    font-size: 8px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+
